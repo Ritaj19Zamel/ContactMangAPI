@@ -1,0 +1,13 @@
+﻿using System.Text.Json.Serialization;
+
+namespace ContactMangAPI.DTOs
+{
+    public class ApiResponse
+    {
+        public bool Success { get; set; }
+        public string Message { get; set; } = null!;
+        [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
+        public object? Data { get; set; }
+        
+    }
+}
