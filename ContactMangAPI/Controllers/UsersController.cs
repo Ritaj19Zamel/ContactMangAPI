@@ -1,9 +1,4 @@
-﻿using ContactMangAPI.DTOs;
-using ContactMangAPI.Services;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-
-namespace ContactMangAPI.Controllers
+﻿namespace ContactMangAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

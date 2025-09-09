@@ -1,10 +1,5 @@
-using ContactMangAPI.Data;
-using ContactMangAPI.Services;
-using ContactMangAPI.Settings;
+
 using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.IdentityModel.Tokens;
-using System;
 
 var builder = WebApplication.CreateBuilder(args);
 

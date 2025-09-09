@@ -1,7 +1,4 @@
-﻿using ContactMangAPI.Models;
-using Microsoft.EntityFrameworkCore;
-
-namespace ContactMangAPI.Data
+﻿namespace ContactMangAPI.Data
 {
     public class ApplicationDbContext : DbContext
     {

@@ -1,6 +1,4 @@
-﻿using ContactMangAPI.DTOs;
-using ContactMangAPI.Models;
-
+﻿
 namespace ContactMangAPI.Services
 {
     public interface IAuthService

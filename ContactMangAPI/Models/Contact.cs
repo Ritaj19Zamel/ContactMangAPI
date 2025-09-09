@@ -1,5 +1,4 @@
-﻿using System.ComponentModel.DataAnnotations;
-
+﻿
 namespace ContactMangAPI.Models
 {
     public class Contact

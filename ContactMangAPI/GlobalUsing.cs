@@ -1,0 +1,15 @@
+﻿global using ContactMangAPI.Data;
+global using ContactMangAPI.DTOs;
+global using ContactMangAPI.Models;
+global using ContactMangAPI.Settings;
+global using Microsoft.AspNetCore.Identity;
+global using Microsoft.EntityFrameworkCore;
+global using Microsoft.Extensions.Options;
+global using Microsoft.IdentityModel.Tokens;
+global using System.IdentityModel.Tokens.Jwt;
+global using System.Security.Claims;
+global using System.Text;
+global using ContactMangAPI.Services;
+global using Microsoft.AspNetCore.Authorization;
+global using Microsoft.AspNetCore.Mvc;
+global using System.ComponentModel.DataAnnotations;

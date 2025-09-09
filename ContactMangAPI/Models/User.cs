@@ -1,5 +1,4 @@
-﻿using System.ComponentModel.DataAnnotations;
-
+﻿
 namespace ContactMangAPI.Models
 {
     public class User
@@ -14,3 +13,4 @@ namespace ContactMangAPI.Models
         public ICollection<Contact> Contacts { get; set; } = new List<Contact>();
     }
 }
+

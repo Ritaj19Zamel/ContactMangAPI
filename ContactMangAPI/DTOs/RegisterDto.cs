@@ -1,5 +1,4 @@
-﻿using System.ComponentModel.DataAnnotations;
-
+﻿
 namespace ContactMangAPI.DTOs
 {
     public class RegisterDto
