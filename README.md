@@ -55,7 +55,15 @@ ContactMangAPI/
  ├── Program.cs         # Application entry point
  └── appsettings.json   # Configuration (DB connection, JWT settings)
 ```
+---
+## Unit Testing
 
+- Comprehensive unit tests have been added for:
+  - **AuthService** → `RegisterAsync` and `LoginAsync`
+  - **ContactService** → CRUD operations, sorting, pagination, and validation rules
+  - **Controllers** → `UsersController` and `ContactsController` endpoints
+- Uses **NUnit** and **Moq** for mocking dependencies
+- In-memory database (`InMemoryDatabase`) is used for service testing, ensuring isolated and repeatable tests
 ---
 
 ## Installation & Setup
@@ -78,8 +86,15 @@ Update `appsettings.json` with your SQL Server connection string:
 ```bash
 dotnet ef database update
 ```
+### 4. Running Unit Tests
 
-### 4. Run the Application
+Unit tests are included for both services and controllers. To run all tests:
+
+```bash
+cd ContactMangAPI.UnitTests
+dotnet test
+```
+### 5. Run the Application
 ```bash
 dotnet run
 ```
